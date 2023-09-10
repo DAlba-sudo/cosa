@@ -6,6 +6,10 @@
 	
 	https://github.com/raspberrypi/firmware
 
+# Raspberry Pi 4 Boot Flow 
+	
+	https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#raspberry-pi-4-boot-flow
+
 #################################
 ## Hobbyist Articles           ##
 #################################
@@ -17,4 +21,14 @@
 # University of Cambridge Course "Baking Pi"
 
 	https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/ok01.html
+
+# Circle RPi: "Bare-Metal" Environment for the C++ Programming
+# - contains a semi-custom bootloader
+
+	https://circle-rpi.readthedocs.io/en/45.2/introduction.html
+
+# Rust LED "Kernel"
+
+	https://stirnemann.xyz/posts/rust_led/
+
 
