@@ -2,6 +2,10 @@
 #################################
 ## Spec Sheets / Direct Sources##
 #################################
+# The BCM54213PE chip on-board the PI4
+	
+	https://www.broadcom.com/products/ethernet-connectivity/phy-and-poe/copper/gigabit/bcm54213pe
+
 # The precompiled binaries for the Pi Kernel and Boot-UP Modules
 	
 	https://github.com/raspberrypi/firmware
