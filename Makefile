@@ -30,7 +30,6 @@ all: bootblock cosa
 cosa: bootblock
 	dd if=/dev/zero of=$(DIR_BUILD)/$(IMG_NAME).img count=10000
 	dd if=$(DIR_BOOTBLOCK)/bootblock of=$(DIR_BUILD)/$(IMG_NAME).img conv=notrunc seek=0
-	cp ./scripts/cosa-qemu.sh ./build
 
 bootblock: always
 		$(CC) $(CCFLAGS) -fno-pic -nostdinc -I$(SRC_BOOTBLOCK)/. -c $(SRC_BOOTBLOCK)/boot.S 
