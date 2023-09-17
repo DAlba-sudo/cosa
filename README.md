@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-    <img src="documentation/images/cosa-banner.png">
+    <img src="documentation/images/cosa-banner-light.png">
 </div>
 
 ## What is cOSA?
