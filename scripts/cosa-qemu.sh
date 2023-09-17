@@ -12,4 +12,4 @@ while getopts "g" flag; do
     esac
 done
 
-qemu-system-i386 -nographic -drive file=build/cosa.img,index=0,media=disk,format=raw -smp 1 -m 512 $gdbflags
+qemu-system-i386 -nographic -drive file="build/cosa.img",index=0,media=disk,format=raw -smp 1 -m 512 $gdbflags

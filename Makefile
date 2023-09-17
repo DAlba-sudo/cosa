@@ -42,7 +42,7 @@ bootblock: always
 # QEMU
 #
 qemu: cosa
-	qemu-system-i386 -nographic -drive file=$(DIR_BUILD)/$(IMG_NAME).img,index=0,media=disk,format=raw -smp 1 -m 512
+	qemu-system-i386 -nographic -drive file=$(DIR_BUILD)/$(IMG_NAME).img,index=0,media=disk,format=raw -smp 1 -m 512 -S -s
 
 #
 # Misc File Manipulation Methods
